@@ -1,0 +1,5 @@
+index=main
+| rex "<I32 N=\"Id\">(?<EventID>\d+)</I32>"
+| search EventID=18456
+| timechart count
+| where count > 0
