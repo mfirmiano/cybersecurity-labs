@@ -36,6 +36,7 @@ index=main
 | search EventID=18456
 | timechart count
 | where count > 0
+```
 
 ## 🧠 Análise
 
@@ -58,5 +59,6 @@ Extração manual de campos em cenários de parsing não padronizado
 Análise temporal para identificação de padrões anômalos
 
 Avaliação crítica de hipóteses (erro humano vs comportamento automatizado)
+
 
 Tomada de decisão baseada em evidência no contexto de SOC Nível 1
